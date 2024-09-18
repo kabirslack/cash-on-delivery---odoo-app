@@ -1,0 +1,8 @@
+<odoo>
+    <record id="payment_acquirer_cod" model="payment.acquirer">
+        <field name="name">Cash on Delivery</field>
+        <field name="provider">cod</field>
+        <field name="view_template_id" ref="payment.template_payment_cod"/>
+        <field name="state">enabled</field>
+    </record>
+</odoo>
